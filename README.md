@@ -299,14 +299,6 @@ nnoremap K 5k
 "Clear search hightlights
 nnoremap <leader><space> :noh<cr><esc>
 
-"Move to beginning/end of line
-nnoremap B ^
-nnoremap E $
-vnoremap E g_
-"$/^ doesn't do anything
-nnoremap $ <nop>
-nnoremap ^ <nop>
-
 "visual mode replace without yank
 vnoremap p "_dP
 nnoremap S "_S
